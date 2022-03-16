@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/main.css'],
+  css: ['@/assets/css/main.css', '@/assets/css/formulate.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -28,6 +28,8 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://vueformulate.com/guide/installation/#nuxt
+    '@braid/vue-formulate/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
